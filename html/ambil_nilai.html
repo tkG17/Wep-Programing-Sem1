@@ -1,0 +1,75 @@
+<html>
+<head>
+<fieldset>
+<style>
+img
+{
+width:100px;
+height:75px;
+transition:width 2s;
+transform:rotate(10deg);
+}
+img#img2
+{
+transform:rotate(180deg);
+-webkit-transform:rotate(30deg);//*safari and chrome*/
+}
+img#img3
+{
+	transform:rotate(12deg);
+	-webkit-transform:rotate(30deg);//*safari and chrome*/
+}
+img:hover
+{
+	width:300px;
+	transform:rotate(10deg);
+}
+
+div
+{
+	width:100px;
+	height:75px;
+	background-color:red;
+	border:2px solid color black;
+	transition:width 2s;
+}
+div:hover
+{
+width:300px;
+}
+div2
+{
+	width:100px;
+	height:75px;
+	background-color:red;
+	border:2px solid color black;
+	transition:width 2s;
+}
+div2:hover
+{
+width:300px;
+}
+</style>
+</head>
+<body>
+<tr>
+	<td>
+		<img src="motivasi.png">hello. this is a IMG element.</img>
+	</td>
+	
+	<td>
+		<img id="img2" src="motivasi.png">Hello.this is a IMG element.</img>
+	</td>
+	<td>
+		<img id="img3" src="motivasi.png">Hello.this is a IMG element.</img>
+	</td>
+
+<tr>
+		<td><div></div></td>
+		<td></td>
+		<td align="right"><div id="div2">hello this is a DIV2 element.</div></td>
+		</tr>
+</fieldset>
+</body>
+</html>
+	
